@@ -1,0 +1,1 @@
+Git push służy do przenoszenia z lokalnego repozytorium do zdalnego repozytorium GitHub.
