@@ -1,4 +1,30 @@
-var lights = ['red', 'yellow', 'green'];
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <style>
+    .light {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 10px auto;
+      cursor: pointer;
+    }
+    
+    .red {
+      background-color: red;
+    }
+    
+    .yellow {
+      background-color: yellow;
+    }
+    
+    .green {
+      background-color: green;
+    }
+  </style>
+  <script>
+    var lights = ['red', 'yellow', 'green'];
     var currentIndex = 0;
     
     function changeColor(element) {
@@ -27,11 +53,11 @@ var lights = ['red', 'yellow', 'green'];
     
     function getDelay(index) {
       if (index === 0) {
-        return 5000; // czas czerwonego światła: 5 sekund
+        return 5000;
       } else if (index === 1) {
-        return 1000; // czas żółtego światła: 1 sekunda
+        return 2000;
       } else if (index === 2) {
-        return 2000; // czas zielonego światła: 2 sekundy
+        return 1000;
       }
     }
     
@@ -45,3 +71,11 @@ var lights = ['red', 'yellow', 'green'];
       
       changeLights();
     };
+  </script>
+</head>
+<body>
+  <div class="light red" id="red"></div>
+  <div class="light" id="yellow"></div>
+  <div class="light" id="green"></div>
+</body>
+</html>
