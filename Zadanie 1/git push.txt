@@ -1,0 +1,1 @@
+Git Push - Pozwala wysłać do repozytorium wszystko to co mamy u siebie lokalnie. Wszystkie gałęzie, wszystkie zmiany, wszystkie tagi. Zrobić takie lustro tego co mamy u siebie. To się przydaje do lokalnych backupów opisanych wyżej.

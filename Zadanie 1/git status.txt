@@ -1,1 +1,1 @@
-Git status 
+Git status - Pokazuje aktualny status repozytorium, ile commit-ów jesteśmy do tyłu w porównaniu ze zdalnym repozytorium, jakie pliki są śledzone a jakie nie itd.
